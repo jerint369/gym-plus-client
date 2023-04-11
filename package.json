@@ -1,0 +1,37 @@
+{
+  "name": "gym-plus-client",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.17.11",
+    "@react-native-picker/picker": "2.4.8",
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "axios": "^1.3.4",
+    "expo": "~48.0.6",
+    "expo-av": "~13.2.1",
+    "expo-constants": "^14.2.1",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.6",
+    "react-native-elements": "^3.4.3",
+    "react-native-rapi-ui": "^0.2.1",
+    "react-native-thumbnail": "^1.1.3",
+    "react-native-thumbnail-video": "^0.1.2",
+    "react-native-video": "^5.2.1",
+    "react-native-webview": "11.26.0",
+    "react-native-youtube": "^2.0.2",
+    "react-player": "^2.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
